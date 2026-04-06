@@ -67,6 +67,7 @@ AI driven hybrid IDS/
 ## How to Run
 
 ### 1. Clone the repository
+```bash
 git clone https://github.com/shanmukhchintalapati/ai-driven-hybrid-ids.git
 cd ai-driven-hybrid-ids
 
@@ -95,6 +96,7 @@ The included evaluation scripts are intended for project demonstration and post-
 ## Research Context
 This project was developed as part of my master’s work in Information Assurance. It focuses on anomaly-based intrusion detection and presents a modular implementation that can be extended toward more advanced hybrid IDS and deception-oriented cyber defense workflows.
 
+```md
 ## Author
-Shanmukh Chintalapati
+**Shanmukh Chintalapati**
 Master’s project in Information Assurance
