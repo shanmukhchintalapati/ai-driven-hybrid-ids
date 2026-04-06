@@ -70,18 +70,27 @@ AI driven hybrid IDS/
 ```bash
 git clone https://github.com/shanmukhchintalapati/ai-driven-hybrid-ids.git
 cd ai-driven-hybrid-ids
+```
 
 ### 2. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 3. Start the feeder
+```bash
 python tools/feeder.py --write-header
+```
 
 ### 4. Start the watcher
+```bash
 python tools/live_score.py --model models/autoencoder_cicids17_cleaned.h5 --thr 0.02
+```
 
 ### 5. Start the dashboard
+```bash
 streamlit run tools/dashboard.py
+```
 
 ## Outputs
 During execution, the project writes runtime and evaluation artifacts such as:
@@ -100,3 +109,4 @@ This project was developed as part of my master’s work in Information Assuranc
 ## Author
 **Shanmukh Chintalapati**
 Master’s project in Information Assurance
+```
