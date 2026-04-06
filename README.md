@@ -53,15 +53,16 @@ AI driven hybrid IDS/
 ├── control/
 ├── artifacts/
 └── screenshots/
+```
 
 ## Technologies Used
- -Python
- -TensorFlow / Keras
- -NumPy
- -Pandas
- -Matplotlib
- -Streamlit
- -Altair
+ - Python
+ - TensorFlow / Keras
+ - NumPy
+ - Pandas
+ - Matplotlib
+ - Streamlit
+ - Altair
 
 ## How to Run
 
@@ -83,10 +84,10 @@ streamlit run tools/dashboard.py
 
 ## Outputs
 During execution, the project writes runtime and evaluation artifacts such as:
- -inputs/live_features.csv
- -outputs/scores_live.csv
- -archived run snapshots in artifacts/
- -plots and evaluation outputs generated after a run
+ - inputs/live_features.csv
+ - outputs/scores_live.csv
+ - archived run snapshots in artifacts/
+ - plots and evaluation outputs generated after a run
 
 ## Notes on Evaluation
 The included evaluation scripts are intended for project demonstration and post-run inspection. Some metrics are computed using heuristic logic derived from reconstruction error and thresholded alerts. They are useful for explaining system behavior, but they should not be interpreted as a direct replacement for full benchmark evaluation against labeled ground-truth datasets.
